@@ -1,6 +1,7 @@
 # VPN
 
 Bare Bones (PPTP) VPN Installer for CentOS
+See [http://drewsymo.com/networking/vpn/install-ptpp/](http://drewsymo.com/networking/vpn/install-ptpp/) for more information.
 
 ## Installation
 
