@@ -10,6 +10,10 @@
 # @author Drew Morris
 #
 
+#
+# This script is to be deployed as a Stackscript, see: http://www.linode.com/stackscripts/view/?StackScriptID=6346
+#
+
 # Create UDF Options
 
 ## VPN Username
@@ -63,6 +67,7 @@ service iptables save
 service iptables restart
 
 service pptpd restart
+chkconfig pptpd on
 
 echo -e '\E[37;44m'"\033[1m Installation Log: /var/log/vpn-installer.log \033[0m"
 echo -e '\E[37;44m'"\033[1m You can now connect to your VPN via your external IP ($VPN_IP)\033[0m"
