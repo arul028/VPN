@@ -20,3 +20,8 @@ If you're on Linode, you can simply rebuild your instance with the `PPTP VPN Ins
 + [Blog](http://drewsymo.com)
 + [Twitter](http://twitter.com/drewsymo)
 + [Google+](https://plus.google.com/u/0/114153589610660530694)
+
+## Recommended Providers
+
++ [Fastdot Cloud VPS Hosting](http://fastdot.com) (Australia, Asia-Pacific, UK, USA)
++ [AUSWEB VMware Hosting](http://www.ausweb.com.au) (Australia)
