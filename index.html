@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>CentOS VPN by drewsymo</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>CentOS VPN</h1>
+        <p>CentOS Script to Install a PPTP VPN-only System</p>
+
+        <p class="view"><a href="https://github.com/drewsymo/VPN">View the Project on GitHub <small>drewsymo/VPN</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/drewsymo/VPN/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/drewsymo/VPN/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/drewsymo/VPN">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="vpn" class="anchor" href="#vpn"><span class="octicon octicon-link"></span></a>VPN</h1>
+
+<p>Bare Bones (PPTP) VPN Installer for CentOS
+See <a href="http://drewsymo.com/networking/vpn/install-ptpp/">http://drewsymo.com/networking/vpn/install-ptpp/</a> for more information.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>To get started with your own secure VPN, simply execute the following commands at your servers command-line:</p>
+
+<pre><code>$ yum install -y git
+$ cd /opt &amp;&amp; git clone git://github.com/drewsymo/VPN.git
+$ cd VPN &amp;&amp; bash vpn-setup-vanilla.sh
+</code></pre>
+
+<p>If you're on Linode, you can simply rebuild your instance with the <code>PPTP VPN Installer</code> <a href="http://www.linode.com/stackscripts/view/?StackScriptID=6346">stackscript</a>.</p>
+
+<h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p><strong>Drew Morris</strong></p>
+
+<ul>
+<li><a href="http://drewsymo.com">Blog</a></li>
+<li><a href="http://twitter.com/drewsymo">Twitter</a></li>
+<li><a href="https://plus.google.com/u/0/114153589610660530694">Google+</a></li>
+</ul><h2>
+<a name="recommended-providers" class="anchor" href="#recommended-providers"><span class="octicon octicon-link"></span></a>Recommended Providers</h2>
+
+<ul>
+<li>
+<a href="http://fastdot.com">Fastdot Cloud VPS Hosting</a> (Australia, Asia-Pacific, UK, USA)</li>
+<li>
+<a href="http://www.ausweb.com.au">AUSWEB VMware Hosting</a> (Australia)</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/drewsymo">drewsymo</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
